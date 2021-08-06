@@ -1,0 +1,63 @@
+/*fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles or utilities */
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* first section style start */
+.top-section
+{
+    background-color: #2D25A0;
+    display: flex;
+    align-items: center;
+}
+.top-banner
+{
+    padding-top: 205px;
+    margin-left: 156px;
+}
+.section-title
+{
+    width: 485px;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+.live-streaming
+{
+    display: flex;
+    background-color: #E02C6D;
+    width: 130px;
+    height: 30px;
+    padding: 10px 20px;
+    margin-bottom: 170px;
+    transition: transform 2s;
+
+}
+.live-streaming:hover
+{
+    transform: rotate(360deg);
+}
+.link
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.fas
+{
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.football-img
+{
+    width: 556px;
+    height: 438px;
+    margin-left: 102px;
+    margin-right: 140px;
+    margin-bottom: 86px;
+    margin-top: 153px;
+}
